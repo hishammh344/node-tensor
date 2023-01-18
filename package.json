@@ -1,0 +1,25 @@
+{
+  "name": "tensor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "ttsc --watch",
+    "dev": "nodemon ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.1.0",
+    "@tensorflow/tfjs-node": "^4.1.0",
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "axios": "^1.2.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "nodemon": "^2.0.20",
+    "ttypescript": "^1.5.13"
+  }
+}
